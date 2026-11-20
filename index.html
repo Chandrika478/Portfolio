@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2 class="logo">My<span>Portfolio</span></h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <img src="profile.jpeg"  class= 'profile-pic' alt="">
+    <p class="hello">Hello, I'm</p>
+    <h1>Chandrika Reddy Boddu</h1>
+    <p class="role"> Python Full Stack Developer</p>
+    <p class="intro">I build clean, responsive and user-friendly websites using HTML, CSS, JavaScript & Django.</p>
+    <div class="btns">
+        <a href="#projects" class="btn dark">View My Work</a>
+        <a href="#contact" class="btn light">Contact Me</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p class="center-text">
+        Aspiring <b>Python Full Stack Developer</b> with hands-on experience in building web applications using <b>Python, Django, HTML, CSS, JavaScript, and SQL</b>. Strong knowledge of <b>Manual Testing, Test Cases, and Bug Reporting</b>. Seeking an opportunity to contribute to quality software development and grow as a Full Stack Developer.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-box">
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React Js</span><span>Python</span><span>Django</span><span>SQL</span><span>Manual Testing</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+        <div class="card">
+            <h3>Demand Forecasting using ML</h3>
+            <p>Predicting future product demand using sales data and Machine Learning models.</p>
+            <p class="tech">Python • Machine Learning</p>
+        </div>
+        <div class="card">
+            <h3>E-Commerce Application</h3>
+            <p>Complete shopping website with product listing, cart and user login.</p>
+            <p class="tech">HTML • CSS • Django</p>
+        </div>
+        <div class="card">
+            <h3>Job Portal Web Application</h3>
+            <p>Platform where recruiters post jobs and users can search & apply easily.</p>
+            <p class="tech">Django • SQL • JavaScript</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p class="center-text">Have a project or opportunity? Let's talk.</p>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="msg"></p>
+</section>
+
+<footer><p>© 2026 Chandrika Reddy Boddu | Auspify Internship Task 1</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
